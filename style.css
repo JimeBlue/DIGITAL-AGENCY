@@ -9,8 +9,28 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  line-height: 23px;
+  color: #525252;
 }
 
 img {
   max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+/* note: section-padding-mobile: 108px 51px /desktop 102px 135px*/
+/* note: section-title-mobile/desktop */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
